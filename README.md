@@ -1,12 +1,24 @@
-# React + Vite
+# NASA APOD 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React app that displays NASA's Astronomy Picture of the Day using the APOD API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Shows today’s APOD (image, title, date, and description)
+- Automatically shows the current day's APOD on page load
+- Displays NASA's Astronomy Picture of the Day (APOD), which includes high-quality images of space, galaxies, planets, stars, 
+  and other astronomical phenomena
+- Mobile responsive layout
 
-## Expanding the ESLint configuration
+## Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- NASA APOD API
+
+## Setup
+
+```bash
+git clone https://github.com/aDnielBrownsky/nasa-apod.git
+cd nasa-apod
+npm install
+npm start
