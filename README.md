@@ -18,7 +18,7 @@ A React app that displays NASA's Astronomy Picture of the Day using the APOD API
 ## Setup
 
 ```bash
-git clone https://github.com/aDnielBrownsky/nasa-apod.git
+git clone https://github.com/DanielBrownsky/nasa-apod.git
 cd nasa-apod
 npm install
 npm start
